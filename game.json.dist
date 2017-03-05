@@ -1,0 +1,9 @@
+{
+  "key": "game-key-name",
+
+  "name": "Readable Gamename",
+  "description": "Some description about the game and its playstyle.",
+  "version": "1.0.0",
+
+  "command": "node index.js"
+}

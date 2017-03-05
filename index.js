@@ -1,3 +1,5 @@
+'use strict';
+
 const Game = require('./lib/game');
 const Sequence = require('./lib/sequence');
 const Players = require('./lib/players');
