@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/byWulf/gcs-game-base-nodejs/issues"
   },
-  "homepage": "https://github.com/byWulf/gcs-game-base-nodejs#readme"
+  "homepage": "https://github.com/byWulf/gcs-game-base-nodejs#readme",
+  "dependencies": {
+    "sleep": "^5.1.0"
+  }
 }
