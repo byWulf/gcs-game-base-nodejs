@@ -29,33 +29,33 @@ Signal the backend system, that the game is over. You should have given every pl
 
 Provides user based methods to find players of the game and to manipulate them.
 
-####GameBase.Players.getByUserId(userId);
+#### GameBase.Players.getByUserId(userId);
 
 Returns the player object of the player with the given user id.
 
     var player = GameBase.Players.getByUserId(123);
 
-####GameBase.Players.getByIndex(index);
+#### GameBase.Players.getByIndex(index);
 
 Returns the player object of the player with the given index in the game (where the first player in this round has index 0).
 
     var player = GameBase.Players.getByIndex(0);
 
-####GameBase.Players.getActivePlayers();
+#### GameBase.Players.getActivePlayers();
 
 Returns each player, whose state is currently "on its turn".
 
     var players = GameBase.Players.getActivePlayers();
 
 
-####GameBase.Players.getPlayerCount();
+#### GameBase.Players.getPlayerCount();
 
 Returns the player count of the players ingame.
 
     var count = GameBase.Players.getPlayerCount();
 
 
-####GameBase.Players.getAll();
+#### GameBase.Players.getAll();
 
 Returns all players ingame.
 
