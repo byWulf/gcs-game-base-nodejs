@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/byWulf/gcs-game-base-nodejs#readme",
   "dependencies": {
-    "sleep": "^5.1.0"
+    "delay": "^4.3.0"
   }
 }
